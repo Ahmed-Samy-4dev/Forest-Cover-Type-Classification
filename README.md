@@ -61,7 +61,7 @@ forest-cover-type-classification/
 
 │── data/
 
-│     └── covtype.data       # Original dataset
+│     └── covtype.zip       # Original dataset
 
 │
 
