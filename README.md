@@ -25,17 +25,21 @@ It applies **Machine Learning models** such as **Random Forest** and **XGBoost**
 ---
 
 ## 📈 Results
-| Model           | Precision | Recall | F1-score | Cross-val Mean |
-|-----------------|-----------|--------|----------|----------------|
-| Random Forest   | ~0.95     | ~0.95  | ~0.95    |  ————          |
-| XGBoost (tuned) | ~0.97     | ~0.97  | ~0.97    | ~0.97          |
+| Model           | Precision | Recall | F1-score | Cross-val Mean | Accuracy |
+|-----------------|-----------|--------|----------|----------------|----------|
+| Random Forest   | ~0.95     | ~0.95  | ~0.95    |  ————          | 0.954    |
+| XGBoost (tuned) | ~0.97     | ~0.97  | ~0.97    | ~0.97          | 0.973    |
 
-- Random Forest: ✅ Helped identify Feature Importance and served as a strong baseline with consistent performance.
-- XGBoost(with hypertunning): ⭐ Best performance with higher F1-Score and precision.  
+- Random Forest: ✅ Helped identify Feature Importance and served as a strong baseline with consistent performance, but got stuck in 95% accuracy.
+- XGBoost(with hypertunning): ⭐ Best performance with higher F1-Score, precision, and accuracy.  
 
 **Final Choice:** XGBoost performed best for this dataset.
 
 ---
+
+**✅ Business Impact**  
+XGBoost provides highly accurate forest cover type predictions, **reducing classification errors** in ecological and forestry applications. This helps decision-makers **rely less on manual surveys** and make faster, data-driven environmental assessments.
+
 
 ## 📦 Dataset
 - CoverType (UCI)
